@@ -1,0 +1,32 @@
+[1.527s] Invoking command in '/home/user/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/user/ros2_ws/build/my_py_pkg/prefix_override:/home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/user/ros2_ws/build/my_py_pkg/build install --record /home/user/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed
+[1.712s] running egg_info
+[1.713s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.713s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.713s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.714s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.714s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.750s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.751s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.751s] running build
+[1.752s] running build_py
+[1.752s] copying my_py_pkg/my_pub.py -> /home/user/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.752s] copying my_py_pkg/__init__.py -> /home/user/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.752s] copying my_py_pkg/my_sub.py -> /home/user/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.753s] running install
+[1.754s] running install_lib
+[1.755s] copying /home/user/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_pub.py -> /home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.755s] copying /home/user/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.755s] copying /home/user/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_sub.py -> /home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[1.756s] byte-compiling /home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/my_pub.py to my_pub.cpython-38.pyc
+[1.758s] byte-compiling /home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc
+[1.758s] byte-compiling /home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/my_sub.py to my_sub.cpython-38.pyc
+[1.759s] running install_data
+[1.759s] running install_egg_info
+[1.761s] removing '/home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.762s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[1.763s] running install_scripts
+[1.777s] Installing my_publisher script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.777s] Installing my_subscriber script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.777s] Installing savebag2image script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.778s] writing list of installed files to '/home/user/ros2_ws/build/my_py_pkg/install.log'
+[1.792s] Invoked command in '/home/user/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/build/my_py_pkg/prefix_override:/home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/user/ros2_ws/build/my_py_pkg/build install --record /home/user/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed
