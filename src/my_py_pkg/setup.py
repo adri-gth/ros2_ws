@@ -22,7 +22,9 @@ setup(
         'console_scripts': [
             "my_pub = my_py_pkg.my_publisher:main",
             "my_sub = my_py_pkg.my_subscriber:main",
-            "save_image2video = my_py_pkg.saveImage:main"
+            "save_image2video = my_py_pkg.saveImage:main",
+            "save_point_Cloud = my_py_pkg.savePointCloud:main"
+
         ],
     },
 )
