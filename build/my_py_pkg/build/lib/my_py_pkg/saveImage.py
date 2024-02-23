@@ -44,7 +44,7 @@ class ImageToVideoConverter(Node):
 
     def save_image(self, cv_image):
         # Crear directorio si no existe
-        image_dir = '/home/data/polytunnel_dataset/image_rbg'
+        image_dir = '/home/data/polytunnel_dataset/image_rgb'
         if not os.path.exists(image_dir):
             os.makedirs(image_dir)
         
