@@ -1,0 +1,24 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/user/miniconda/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/get_node_data
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/launch/get_node_data.launch.py
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/package_run_dependencies/get_node_data
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/parent_prefix_path/get_node_data
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/path.sh
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/path.dsv
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.bash
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.sh
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.zsh
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.dsv
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/package.dsv
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/packages/get_node_data
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/get_node_data/cmake/get_node_dataConfig.cmake
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/get_node_data/cmake/get_node_dataConfig-version.cmake
+-- Up-to-date symlink: /home/user/ros2_ws/install/get_node_data/share/get_node_data/package.xml

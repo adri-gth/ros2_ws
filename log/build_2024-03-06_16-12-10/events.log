@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000099] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000129] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099504] (-) TimerEvent: {}
+[0.199705] (-) TimerEvent: {}
+[0.300619] (-) TimerEvent: {}
+[0.401226] (-) TimerEvent: {}
+[0.501533] (-) TimerEvent: {}
+[0.602766] (-) TimerEvent: {}
+[0.703155] (-) TimerEvent: {}
+[0.803415] (-) TimerEvent: {}
+[0.903632] (-) TimerEvent: {}
+[1.003910] (-) TimerEvent: {}
+[1.105276] (-) TimerEvent: {}
+[1.207133] (-) TimerEvent: {}
+[1.310236] (-) TimerEvent: {}
+[1.410519] (-) TimerEvent: {}
+[1.510804] (-) TimerEvent: {}
+[1.611044] (-) TimerEvent: {}
+[1.664797] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/user/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/user/ros2_ws/build/my_py_pkg/install.log', '--install-scripts', '$base/lib/my_py_pkg', '--single-version-externally-managed'], 'cwd': '/home/user/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'Predator', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'HOME': '/home/user', 'OLDPWD': '/home/user', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'CUDA_VERSION': '11.0.3', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'NVIDIA_REQUIRE_CUDA': 'cuda>=11.0 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/home/user/.local/bin:/opt/ros/foxy/bin:/home/user/miniconda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/my_py_pkg:/opt/ros/foxy', 'CONDA_AUTO_UPDATE_CONDA': 'false', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/user/ros2_ws/build/my_py_pkg', 'PYTHONPATH': '/home/user/ros2_ws/build/my_py_pkg/prefix_override:/home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1'}, 'shell': False}
+[1.711179] (-) TimerEvent: {}
+[1.811461] (-) TimerEvent: {}
+[1.844007] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.844718] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.844953] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.845112] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.845210] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.845289] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.873439] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.874217] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.874301] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.874369] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.874425] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/save_depth_image.py -> /home/user/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[1.874612] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.875335] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.876109] (my_py_pkg) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/save_depth_image.py -> /home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg\n'}
+[1.876892] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/save_depth_image.py to save_depth_image.cpython-38.pyc\n'}
+[1.878081] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.878489] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.879787] (my_py_pkg) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.880102] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info\n'}
+[1.881324] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.894146] (my_py_pkg) StdoutLine: {'line': b'Installing my_pub script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.894290] (my_py_pkg) StdoutLine: {'line': b'Installing my_sub script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.894418] (my_py_pkg) StdoutLine: {'line': b'Installing save_depth_image script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.894501] (my_py_pkg) StdoutLine: {'line': b'Installing save_point_Cloud script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.894565] (my_py_pkg) StdoutLine: {'line': b'Installing save_rgb_image script to /home/user/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.895023] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/my_py_pkg/install.log'\n"}
+[1.907696] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.911525] (-) TimerEvent: {}
+[2.011722] (-) TimerEvent: {}
+[2.113028] (-) TimerEvent: {}
+[2.214287] (-) TimerEvent: {}
+[2.281857] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[2.282504] (-) EventReactorShutdown: {}

@@ -1,0 +1,29 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/user/miniconda/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/get_node_data
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/package_run_dependencies/get_node_data
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/parent_prefix_path/get_node_data
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/ament_prefix_path.sh
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/ament_prefix_path.dsv
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/path.sh
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/path.dsv
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.bash
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.sh
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.zsh
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.dsv
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/package.dsv
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/packages/get_node_data
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/cmake/get_node_dataConfig.cmake
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/cmake/get_node_dataConfig-version.cmake
+-- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/package.xml

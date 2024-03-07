@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000142] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000214] (get_node_data) JobQueued: {'identifier': 'get_node_data', 'dependencies': OrderedDict()}
+[0.000245] (get_node_data) JobStarted: {'identifier': 'get_node_data'}
+[0.099388] (-) TimerEvent: {}
+[0.199678] (-) TimerEvent: {}
+[0.300054] (-) TimerEvent: {}
+[0.400669] (-) TimerEvent: {}
+[0.476108] (get_node_data) JobProgress: {'identifier': 'get_node_data', 'progress': 'cmake'}
+[0.476423] (get_node_data) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/get_node_data', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/get_node_data'], 'cwd': '/home/user/ros2_ws/build/get_node_data', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'Predator'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/src/get_node_data/launch'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('CUDA_VERSION', '11.0.3'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.0 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/user/.local/bin:/opt/ros/foxy/bin:/home/user/miniconda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/my_py_pkg:/opt/ros/foxy'), ('CONDA_AUTO_UPDATE_CONDA', 'false'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/ros2_ws/build/get_node_data'), ('PYTHONPATH', '/home/user/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.500863] (-) TimerEvent: {}
+[0.601157] (-) TimerEvent: {}
+[0.701394] (-) TimerEvent: {}
+[0.722695] (get_node_data) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.801479] (-) TimerEvent: {}
+[0.886477] (get_node_data) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.893983] (get_node_data) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.901550] (-) TimerEvent: {}
+[0.956942] (get_node_data) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.958959] (get_node_data) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.001642] (-) TimerEvent: {}
+[1.013766] (get_node_data) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.023786] (get_node_data) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.024339] (get_node_data) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.027330] (get_node_data) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.086740] (get_node_data) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.087824] (get_node_data) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.101744] (-) TimerEvent: {}
+[1.148454] (get_node_data) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.157471] (get_node_data) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.157773] (get_node_data) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.168926] (get_node_data) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.201854] (-) TimerEvent: {}
+[1.233791] (get_node_data) StdoutLine: {'line': b'-- Found PythonInterp: /home/user/miniconda/bin/python3 (found suitable version "3.8.3", minimum required is "3") \n'}
+[1.234035] (get_node_data) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/user/miniconda/bin/python3\n'}
+[1.301972] (-) TimerEvent: {}
+[1.402252] (-) TimerEvent: {}
+[1.453431] (get_node_data) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.480910] (get_node_data) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.502355] (-) TimerEvent: {}
+[1.510027] (get_node_data) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.510213] (get_node_data) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>\n'}
+[1.510288] (get_node_data) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[1.510346] (get_node_data) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[1.513991] (get_node_data) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[1.514119] (get_node_data) StderrLine: {'line': b'  execute_process(/home/user/miniconda/bin/python3\n'}
+[1.514185] (get_node_data) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.514245] (get_node_data) StderrLine: {'line': b'  /home/user/ros2_ws/src/get_node_data/package.xml\n'}
+[1.514302] (get_node_data) StderrLine: {'line': b'  /home/user/ros2_ws/build/get_node_data/ament_cmake_core/package.cmake)\n'}
+[1.514359] (get_node_data) StderrLine: {'line': b'  returned error code 1\n'}
+[1.514414] (get_node_data) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.514469] (get_node_data) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.514524] (get_node_data) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.514579] (get_node_data) StderrLine: {'line': b'  CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)\n'}
+[1.514633] (get_node_data) StderrLine: {'line': b'\n'}
+[1.514688] (get_node_data) StderrLine: {'line': b'\n'}
+[1.515116] (get_node_data) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.515207] (get_node_data) StdoutLine: {'line': b'See also "/home/user/ros2_ws/build/get_node_data/CMakeFiles/CMakeOutput.log".\n'}
+[1.519228] (get_node_data) CommandEnded: {'returncode': 1}
+[1.603416] (-) TimerEvent: {}
+[1.705106] (-) TimerEvent: {}
+[1.763618] (get_node_data) JobEnded: {'identifier': 'get_node_data', 'rc': 1}
+[1.774550] (-) EventReactorShutdown: {}

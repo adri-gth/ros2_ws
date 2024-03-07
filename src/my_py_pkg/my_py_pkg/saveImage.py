@@ -8,13 +8,21 @@ import numpy as np
 import os
 import time
 
-class ImageToVideoConverter(Node):
+class RgbImageSaver(Node):
     def __init__(self):
-        super().__init__('image_to_video_converter')
+        super().__init__('rgb_image_saver')
         self.bridge = cv_bridge.CvBridge()
         self.subscription = self.create_subscription(Image, '/front_camera/image_raw', self.image_callback, 10)
-        self.video_writer = None
-        self.image_count = 0  # Contador para nombres de archivos de imagen
+        #create directories
+        self.save_directory_video = '/home/data/polytunnel_dataset/video_data'
+        os.makedirs(self.save_directory_video, exist_ok=True)
+        self.save_directory_image = '/home/data/polytunnel_dataset/image_data'
+        os.makedirs(self.save_directory_image, exist_ok=True)
+        self.save_directory_txt = '/home/data/polytunnel_dataset/calib'
+        os.makedirs(self.save_directory_txt, exist_ok=True)
+
+        self.video_writer = None    
+        self.image_count = 0  
 
     def image_callback(self, msg):
         print("Received an image!")
@@ -25,7 +33,7 @@ class ImageToVideoConverter(Node):
                 self.init_video_writer(cv_image)
             self.video_writer.write(cv_image)
             
-            # Guardar la imagen recibida como un archivo
+            # save image as a file 
             self.save_image(cv_image)
         except Exception as e:
             self.get_logger().error('Error processing image: %s' % str(e))
@@ -34,7 +42,8 @@ class ImageToVideoConverter(Node):
         try:
             height, width, _ = image.shape
             video_format = 'mp4'
-            video_filename = '/home/data/polytunnel_dataset/video_rgb/output_video.' + video_format
+            
+            video_filename = self.save_directory_video +'/output_video.' + video_format
             fourcc = cv2.VideoWriter_fourcc(*'mp4v')
             
             fps = 30  # Frames per second
@@ -42,17 +51,27 @@ class ImageToVideoConverter(Node):
         except Exception as e:
             self.get_logger().error('Error initializing video writer: %s' % str(e))
 
+     
+
     def save_image(self, cv_image):
-        # Crear directorio si no existe
-        image_dir = '/home/data/polytunnel_dataset/image_rgb'
-        if not os.path.exists(image_dir):
-            os.makedirs(image_dir)
-        
-        # Generar un nombre de archivo único para la imagen
-        timestamp = time.strftime("%Y%m%d-%H%M%S")
-        image_path = os.path.join(image_dir, f'image_{timestamp}_{self.image_count:04d}.png')
+        image_path = os.path.join(self.save_directory_image, f'image_{self.image_count:04d}.png')
         cv2.imwrite(image_path, cv_image)
         self.image_count += 1
+        self.create_txt_for_png(image_path)        
+    
+    def create_txt_for_png(self, image_path):
+        txt_content = '''cam_K: 528.433756558705 0.0 320.5 0.0 528.433756558705 240.5 0.0 0.0 1.0 
+cam_RT: 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 
+lidar_R: 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0
+lidar_T: 0 0 0'''
+
+        base_name = os.path.splitext(os.path.basename(image_path))[0]
+        txt_file_path = os.path.join( self.save_directory_txt, f'{base_name}.txt')
+
+        with open(txt_file_path, 'w') as txt_file:
+            txt_file.write(txt_content)
+        print(f'Archivo creado: {txt_file_path}')
+
         
 
     def destroy_node(self):
@@ -63,8 +82,8 @@ class ImageToVideoConverter(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    image_to_video_converter = ImageToVideoConverter()
-    print("Save_image2video Rode Running...")
+    image_to_video_converter = RgbImageSaver()
+    print("Save Rgb Image Rode Running...")
     
     rclpy.spin(image_to_video_converter)
     image_to_video_converter.destroy_node()

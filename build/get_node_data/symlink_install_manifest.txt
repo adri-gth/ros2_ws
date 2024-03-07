@@ -1,0 +1,16 @@
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/launch/get_node_data.launch.py
+/home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/package_run_dependencies/get_node_data
+/home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/parent_prefix_path/get_node_data
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/ament_prefix_path.sh
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/ament_prefix_path.dsv
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/path.sh
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/path.dsv
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.bash
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.sh
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.zsh
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.dsv
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/package.dsv
+/home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/packages/get_node_data
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/cmake/get_node_dataConfig.cmake
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/cmake/get_node_dataConfig-version.cmake
+/home/user/ros2_ws/install/get_node_data/share/get_node_data/package.xml

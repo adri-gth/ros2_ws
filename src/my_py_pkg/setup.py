@@ -19,11 +19,10 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-            "my_pub = my_py_pkg.my_publisher:main",
-            "my_sub = my_py_pkg.my_subscriber:main",
-            "save_image2video = my_py_pkg.saveImage:main",
-            "save_point_Cloud = my_py_pkg.savePointCloud:main"
+        'console_scripts': [           
+            "save_rgb_image = my_py_pkg.saveImage:main",
+            "save_point_Cloud = my_py_pkg.savePointCloud:main",
+            "save_depth_image = my_py_pkg.save_depth_image:main"
 
         ],
     },

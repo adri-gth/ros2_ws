@@ -1,0 +1,35 @@
+[0.496s] Invoking command in '/home/user/ros2_ws/build/get_node_data': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/user/ros2_ws/src/get_node_data -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/get_node_data
+[0.509s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.526s] -- Using PYTHON_EXECUTABLE: /home/user/miniconda/bin/python3
+[0.666s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.672s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.760s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.762s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.762s] -- Added test 'lint_cmake' to check CMake code style
+[0.763s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.764s] -- Added test 'xmllint' to check XML markup files
+[0.766s] -- Configuring done
+[0.768s] -- Generating done
+[0.769s] -- Build files have been written to: /home/user/ros2_ws/build/get_node_data
+[0.771s] Invoked command in '/home/user/ros2_ws/build/get_node_data' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/user/ros2_ws/src/get_node_data -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/get_node_data
+[0.773s] Invoking command in '/home/user/ros2_ws/build/get_node_data': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/user/ros2_ws/build/get_node_data -- -j12 -l12
+[0.806s] Invoked command in '/home/user/ros2_ws/build/get_node_data' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/user/ros2_ws/build/get_node_data -- -j12 -l12
+[0.832s] Invoking command in '/home/user/ros2_ws/build/get_node_data': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/user/ros2_ws/build/get_node_data
+[0.840s] -- Install configuration: ""
+[0.840s] -- Execute custom install script
+[0.841s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/package_run_dependencies/get_node_data
+[0.850s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/parent_prefix_path/get_node_data
+[0.858s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/ament_prefix_path.sh
+[0.866s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/ament_prefix_path.dsv
+[0.873s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/path.sh
+[0.880s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/environment/path.dsv
+[0.888s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.bash
+[0.896s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.sh
+[0.904s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.zsh
+[0.911s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/local_setup.dsv
+[0.919s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/package.dsv
+[0.926s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/ament_index/resource_index/packages/get_node_data
+[0.934s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/cmake/get_node_dataConfig.cmake
+[0.942s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/cmake/get_node_dataConfig-version.cmake
+[0.950s] -- Symlinking: /home/user/ros2_ws/install/get_node_data/share/get_node_data/package.xml
+[0.958s] Invoked command in '/home/user/ros2_ws/build/get_node_data' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/user/ros2_ws/build/get_node_data
